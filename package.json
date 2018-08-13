@@ -81,6 +81,10 @@
     "directories": {
       "buildResources": "resources",
       "output": "release"
+    },
+    "fileAssociations": {
+      "ext": "petmate",
+      "name": "Petmate PETSCII"
     }
   },
   "repository": {

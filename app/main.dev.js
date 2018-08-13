@@ -52,6 +52,11 @@ app.on('window-all-closed', () => {
   }
 });
 
+app.on('open-file', (event, path) => {
+  console.log({event, path})
+  alert({event, path})
+})
+
 app.on('ready', async () => {
   if (
     process.env.NODE_ENV === 'development' ||
